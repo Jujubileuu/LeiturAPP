@@ -11,11 +11,10 @@ import java.util.Objects;
 
 public class Perfil extends AppCompatActivity {
 
-    Intent telaPerfil = getIntent();
-    String idPersonagem = telaPerfil.getStringExtra("idPersonagem");
-    TextView txtInfoGeral = (TextView) findViewById(R.id.txtInfoGeral);
 
-    public void trocarConteudo() {
+
+    public void trocarConteudo(String idPersonagem) {
+        TextView txtInfoGeral = (TextView) findViewById(R.id.txtInfoGeral);
         if (Objects.equals(idPersonagem, "personagem1")) {
             txtInfoGeral.setText(getString(R.string.PersonagemID1));
         } else if (Objects.equals(idPersonagem, "personagem2")) {
@@ -27,6 +26,10 @@ public class Perfil extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perfil);
-        trocarConteudo();
+
+        Intent telaPerfil = getIntent();
+        String idPersonagem = telaPerfil.getStringExtra("idPersonagem");
+
+        trocarConteudo(idPersonagem);
     }
 }
