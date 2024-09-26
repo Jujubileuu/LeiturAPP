@@ -22,7 +22,7 @@ public class Sinopse extends AppCompatActivity {
                     Intent telaGaleria = new Intent(getApplicationContext(), Galeria.class);
                     startActivity(telaGaleria);
                 } else {
-                    findViewById(R.id.btnLinhaTempo).animate().translationY(-110f).setDuration(100).start();
+                    findViewById(R.id.btnGaleria).animate().translationY(-110f).setDuration(100).start();
                     Animacao[0] = true;
                 }
             }
