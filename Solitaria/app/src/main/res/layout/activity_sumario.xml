@@ -11,7 +11,7 @@
         android:layout_width="413dp"
         android:layout_height="655dp"
         android:layout_marginTop="76dp"
-        android:background="@drawable/bookInverted"
+        android:background="@drawable/bookinverted"
         android:rotation="360"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,6 +69,7 @@
                     tools:layout_editor_absoluteY="120dp" />
 
                 <TextView
+                    android:id="@+id/pt1Quintal"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginStart="29dp"
@@ -86,7 +87,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/pt1PlantaBaixa"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -100,6 +101,21 @@
                     tools:layout_editor_absoluteY="163dp" />
 
                 <TextView
+                    android:id="@+id/pt1Piscina"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:text="Piscina"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="227dp" />
+
+                <TextView
+                    android:id="@+id/pt1Cozinha"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -110,35 +126,10 @@
                     android:textColor="#000000"
                     android:textSize="15sp"
                     tools:layout_editor_absoluteX="29dp"
-                    tools:layout_editor_absoluteY="227dp" />
-
-                <TextView
-                    android:layout_width="300dp"
-                    android:layout_height="22dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_weight="1"
-                    android:baselineAligned="false"
-                    android:text="Piscina"
-                    android:textAlignment="viewStart"
-                    android:textColor="#000000"
-                    android:textSize="15sp"
-                    tools:layout_editor_absoluteX="29dp"
-                    tools:layout_editor_absoluteY="184dp" />
-
-                <TextView
-                    android:layout_width="300dp"
-                    android:layout_height="22dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_weight="1"
-                    android:baselineAligned="false"
-                    android:text="Piscina"
-                    android:textAlignment="viewStart"
-                    android:textColor="#000000"
-                    android:textSize="15sp"
-                    tools:layout_editor_absoluteX="29dp"
                     tools:layout_editor_absoluteY="206dp" />
 
                 <TextView
+                    android:id="@+id/pt1Escritorio"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -152,12 +143,13 @@
                     tools:layout_editor_absoluteY="248dp" />
 
                 <TextView
+                    android:id="@+id/pt1Portaria"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
                     android:layout_weight="1"
                     android:baselineAligned="false"
-                    android:text="Portão"
+                    android:text="Portaria"
                     android:textAlignment="viewStart"
                     android:textColor="#000000"
                     android:textSize="15sp"
@@ -165,6 +157,7 @@
                     tools:layout_editor_absoluteY="312dp" />
 
                 <TextView
+                    android:id="@+id/pt1SalaoFestas"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -178,25 +171,13 @@
                     tools:layout_editor_absoluteY="291dp" />
 
                 <TextView
+                    android:id="@+id/pt1Portao"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
                     android:layout_weight="1"
                     android:baselineAligned="false"
-                    android:text="Salão de Festas"
-                    android:textAlignment="viewStart"
-                    android:textColor="#000000"
-                    android:textSize="15sp"
-                    tools:layout_editor_absoluteX="29dp"
-                    tools:layout_editor_absoluteY="334dp" />
-
-                <TextView
-                    android:layout_width="300dp"
-                    android:layout_height="22dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_weight="1"
-                    android:baselineAligned="false"
-                    android:text="Portaria"
+                    android:text="Portão"
                     android:textAlignment="viewStart"
                     android:textColor="#000000"
                     android:textSize="15sp"
@@ -204,6 +185,7 @@
                     tools:layout_editor_absoluteY="270dp" />
 
                 <TextView
+                    android:id="@+id/pt1Calcada"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -217,19 +199,7 @@
                     tools:layout_editor_absoluteY="378dp" />
 
                 <TextView
-                    android:layout_width="300dp"
-                    android:layout_height="22dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_weight="1"
-                    android:baselineAligned="false"
-                    android:text="Portão"
-                    android:textAlignment="viewStart"
-                    android:textColor="#000000"
-                    android:textSize="15sp"
-                    tools:layout_editor_absoluteX="29dp"
-                    tools:layout_editor_absoluteY="356dp" />
-
-                <TextView
+                    android:id="@+id/pt1QuartoBebe"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -243,6 +213,7 @@
                     tools:layout_editor_absoluteY="400dp" />
 
                 <TextView
+                    android:id="@+id/pt1Escadas"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -256,19 +227,7 @@
                     tools:layout_editor_absoluteY="423dp" />
 
                 <TextView
-                    android:layout_width="300dp"
-                    android:layout_height="22dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_weight="1"
-                    android:baselineAligned="false"
-                    android:text="Pracinha"
-                    android:textAlignment="viewStart"
-                    android:textColor="#000000"
-                    android:textSize="15sp"
-                    tools:layout_editor_absoluteX="29dp"
-                    tools:layout_editor_absoluteY="470dp" />
-
-                <TextView
+                    android:id="@+id/pt1Banheiro"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -279,9 +238,24 @@
                     android:textColor="#000000"
                     android:textSize="15sp"
                     tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="470dp" />
+
+                <TextView
+                    android:id="@+id/pt1Pracinha"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:text="Pracinha"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
                     tools:layout_editor_absoluteY="447dp" />
 
                 <TextView
+                    android:id="@+id/pt1Recepcao"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -295,6 +269,7 @@
                     tools:layout_editor_absoluteY="491dp" />
 
                 <TextView
+                    android:id="@+id/pt1Banheirinho"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -308,6 +283,7 @@
                     tools:layout_editor_absoluteY="513dp" />
 
                 <TextView
+                    android:id="@+id/pt1Janela"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
