@@ -16,6 +16,9 @@
             android:name=".Sumario"
             android:exported="false" />
         <activity
+            android:name=".testecaps"
+            android:exported="false" />
+        <activity
             android:name=".Sinopse"
             android:exported="false" />
         <activity
