@@ -4,92 +4,114 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/table"
-    tools:context=".LinhaTempo">
+    tools:context=".LinhaTempo" >
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/book"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="730dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:baselineAligned="false"
-            android:text="Linha Tempo"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="34sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.128" />
-
-        <LinearLayout
+        <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center">
-
-            <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="10dp">
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
-                <View
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:background="@color/black"
-                    android:layout_marginEnd="100dp">
-                </View>
-                <View
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:background="@color/black"
-                    android:layout_marginEnd="100dp">
-                </View>
-                <View
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:background="@color/black"
-                    android:layout_marginEnd="100dp">
-                </View>
-                <View
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:background="@color/black"
-                    android:layout_marginEnd="100dp">
-                </View>
-                <View
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:background="@color/black"
-                    android:layout_marginEnd="100dp">
-                </View>
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/ellipse_2" />
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/ellipse_2" />
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/ellipse_2" />
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/ellipse_2" />
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/ellipse_2" />
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/ellipse_2" />
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/ellipse_2" />
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/ellipse_2" />
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/ellipse_2" />
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/ellipse_2" />
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/ellipse_2" />
+            </LinearLayout>
+        </HorizontalScrollView>
 
-                </LinearLayout>
-
-            </HorizontalScrollView>
-
-        </LinearLayout>
-
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
