@@ -11,7 +11,7 @@
         android:layout_width="413dp"
         android:layout_height="655dp"
         android:layout_marginTop="76dp"
-        android:background="@drawable/bookinverted"
+        android:background="@drawable/bookInverted"
         android:rotation="360"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
