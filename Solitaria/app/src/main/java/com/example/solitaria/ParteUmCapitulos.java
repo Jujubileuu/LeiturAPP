@@ -12,10 +12,10 @@ public class ParteUmCapitulos extends AppCompatActivity {
 
     public void trocarConteudo(String idCapitulo) {
         final int y;
-        if (idCapitulo == "quintal") {
+        if (Objects.equals(idCapitulo, "quintal")) {
             y = findViewById(R.id.pt1Quintal).getScrollY();
             findViewById(R.id.scrollCap).scrollTo(0, y);
-        } else if (idCapitulo == "quartobebe") {
+        } else if (Objects.equals(idCapitulo, "quartobebe")) {
             y = findViewById(R.id.pt1QuartoBebe).getScrollY();
             findViewById(R.id.scrollCap).scrollTo(0, y);
         }

@@ -16,7 +16,9 @@
             android:name=".Sumario"
             android:exported="false" />
         <activity
-            android:name=".testecaps"
+            android:name=".ParteUmCapitulos"
+            android:exported="false" />
+        <activity
             android:name=".Galeria"
             android:exported="false" />
         <activity
