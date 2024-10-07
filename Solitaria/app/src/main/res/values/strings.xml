@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Solitaria</string>
+    <string name="testelinha1">testeando programa 1</string>
+    <string name="testelinha2">testeando programa 2</string>
 </resources>
