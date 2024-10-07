@@ -10,25 +10,34 @@ import java.util.Objects;
 
 public class ParteUmCapitulos extends AppCompatActivity {
 
-    public void trocarConteudo(String idCapitulo) {
-        final int y;
-        if (Objects.equals(idCapitulo, "quintal")) {
-            y = findViewById(R.id.pt1Quintal).getScrollY();
-            findViewById(R.id.scrollCap).scrollTo(0, y);
-        } else if (Objects.equals(idCapitulo, "quartobebe")) {
-            y = findViewById(R.id.pt1QuartoBebe).getScrollY();
-            findViewById(R.id.scrollCap).scrollTo(0, y);
-        }
-    }
+    Integer yPosition;
+    Integer xPosition;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_parte_um_capitulos);
 
-        Intent telaPerfil = getIntent();
-        String idCapitulo = telaPerfil.getStringExtra("idCapitulo");
+        Intent telaSumario = getIntent();
+        String idCapitulo = telaSumario.getStringExtra("idCapitulo");
 
-        trocarConteudo(idCapitulo);
+        setCapitulo(idCapitulo);
+
+        findViewById(R.id.scrollCap).post(new Runnable() {
+            @Override
+            public void run() {
+                findViewById(R.id.scrollCap).scrollTo(xPosition, yPosition);
+            }
+        });
+    }
+
+    public void setCapitulo(String idCapitulo) {
+        if (idCapitulo == "quintal") {
+            yPosition = findViewById(R.id.pt1Quintal).getScrollY();
+            xPosition = findViewById(R.id.pt1Quintal).getScrollX();
+        } else if (idCapitulo == "quartobebe") {
+            yPosition = findViewById(R.id.pt1QuartoBebe).getScrollY();
+            xPosition = findViewById(R.id.pt1QuartoBebe).getScrollX();
+        }
     }
 }

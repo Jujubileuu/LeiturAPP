@@ -25,25 +25,8 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/txtInfo"
-                android:layout_width="320dp"
-                android:layout_height="151dp"
-                android:layout_weight="1"
-                android:baselineAligned="false"
-                android:text="dolor sit amet, consectetur adipiscing elit. Suspendisse mi dui, malesuada ac gravida eu, iaculis quis ipsum. Nullam ultricies rutrum lobortis. In nunc odio, condimentum vel lorem quis, finibus sagittis turpis. Curabitur at dapibus mi, at lacinia libero. Quisque fringilla sapien et risus dictum tincidunt. Sed ullamcorper eget est quis laoreet. Praesent ac metus id enim venenatis posuere eget vel tellus."
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.487"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.42" />
-
-            <TextView
                 android:id="@+id/txtInfoGeral"
-                android:layout_width="165dp"
+                android:layout_width="300dp"
                 android:layout_height="145dp"
                 android:layout_weight="1"
                 android:baselineAligned="false"
@@ -53,10 +36,9 @@
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.896"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.097" />
+                app:layout_constraintVertical_bias="0.419" />
 
             <ImageView
                 android:id="@+id/imgIcon"
@@ -64,10 +46,9 @@
                 android:layout_height="145dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.089"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.096"
+                app:layout_constraintVertical_bias="0.099"
                 tools:srcCompat="@tools:sample/avatars" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

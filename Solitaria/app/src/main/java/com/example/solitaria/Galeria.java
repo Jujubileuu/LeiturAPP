@@ -41,6 +41,8 @@ public class Galeria extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent telaPerfil = new Intent(getApplicationContext(), Perfil.class);
+                idPersonagem = "personagem3";
+                telaPerfil.putExtra("idPersonagem", idPersonagem);
                 startActivity(telaPerfil);
             }
         });
@@ -49,6 +51,8 @@ public class Galeria extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent telaPerfil = new Intent(getApplicationContext(), Perfil.class);
+                idPersonagem = "personagem4";
+                telaPerfil.putExtra("idPersonagem", idPersonagem);
                 startActivity(telaPerfil);
             }
         });
@@ -57,6 +61,8 @@ public class Galeria extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent telaPerfil = new Intent(getApplicationContext(), Perfil.class);
+                idPersonagem = "personagem5";
+                telaPerfil.putExtra("idPersonagem", idPersonagem);
                 startActivity(telaPerfil);
             }
         });
@@ -65,6 +71,8 @@ public class Galeria extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent telaPerfil = new Intent(getApplicationContext(), Perfil.class);
+                idPersonagem = "personagem6";
+                telaPerfil.putExtra("idPersonagem", idPersonagem);
                 startActivity(telaPerfil);
             }
         });
@@ -73,6 +81,8 @@ public class Galeria extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent telaPerfil = new Intent(getApplicationContext(), Perfil.class);
+                idPersonagem = "personagem7";
+                telaPerfil.putExtra("idPersonagem", idPersonagem);
                 startActivity(telaPerfil);
             }
         });
@@ -81,6 +91,8 @@ public class Galeria extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent telaPerfil = new Intent(getApplicationContext(), Perfil.class);
+                idPersonagem = "personagem8";
+                telaPerfil.putExtra("idPersonagem", idPersonagem);
                 startActivity(telaPerfil);
             }
         });
@@ -89,6 +101,8 @@ public class Galeria extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent telaPerfil = new Intent(getApplicationContext(), Perfil.class);
+                idPersonagem = "personagem9";
+                telaPerfil.putExtra("idPersonagem", idPersonagem);
                 startActivity(telaPerfil);
             }
         });

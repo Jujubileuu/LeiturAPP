@@ -18,20 +18,20 @@ public class Sumario extends AppCompatActivity {
         findViewById(R.id.pt1Quintal).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent telaPerfil = new Intent(getApplicationContext(), ParteUmCapitulos.class);
+                Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
                 idCapitulo = "quintal";
-                telaPerfil.putExtra("idCapitulo", idCapitulo);
-                startActivity(telaPerfil);
+                telaCap.putExtra("idCapitulo", idCapitulo);
+                startActivity(telaCap);
             }
         });
 
         findViewById(R.id.pt1QuartoBebe).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent telaPerfil = new Intent(getApplicationContext(), ParteUmCapitulos.class);
+                Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
                 idCapitulo = "quartobebe";
-                telaPerfil.putExtra("idCapitulo", idCapitulo);
-                startActivity(telaPerfil);
+                telaCap.putExtra("idCapitulo", idCapitulo);
+                startActivity(telaCap);
             }
         });
     }
