@@ -5,13 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Objects;
 
 public class ParteUmCapitulos extends AppCompatActivity {
 
-    Integer yPosition;
-    Integer xPosition;
+    int yPosition = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,18 +26,23 @@ public class ParteUmCapitulos extends AppCompatActivity {
         findViewById(R.id.scrollCap).post(new Runnable() {
             @Override
             public void run() {
-                findViewById(R.id.scrollCap).scrollTo(xPosition, yPosition);
+                findViewById(R.id.scrollCap).scrollTo(0, yPosition);
             }
         });
     }
 
     public void setCapitulo(String idCapitulo) {
-        if (idCapitulo == "quintal") {
-            yPosition = findViewById(R.id.pt1Quintal).getScrollY();
-            xPosition = findViewById(R.id.pt1Quintal).getScrollX();
-        } else if (idCapitulo == "quartobebe") {
-            yPosition = findViewById(R.id.pt1QuartoBebe).getScrollY();
-            xPosition = findViewById(R.id.pt1QuartoBebe).getScrollX();
+        TextView yPText;
+        switch(idCapitulo) {
+            case "quintal":
+                yPText = findViewById(R.id.pt1Quintal);
+                yPosition = yPText.getScrollY();
+                break;
+            case "quartobebe":
+                yPText = findViewById(R.id.pt1QuartoBebe);
+                yPosition = yPText.getScrollY();
+                break;
         }
+        Toast.makeText(this, String.valueOf(yPosition), Toast.LENGTH_LONG).show();
     }
 }
