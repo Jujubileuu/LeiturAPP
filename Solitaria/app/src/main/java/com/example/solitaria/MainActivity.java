@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         btnVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent telaMain = new Intent(getApplicationContext(), Sinopse.class);
+                Intent telaMain = new Intent(getApplicationContext(), LinhaTempo.class);
                 startActivity(telaMain);
             }
         });
