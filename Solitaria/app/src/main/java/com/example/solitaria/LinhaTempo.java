@@ -27,7 +27,7 @@ public class LinhaTempo extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 textolinha.setText(R.string.testelinha1);
-                imagemLinha.setImageDrawable(R.drawable.ellipse_2);
+                imagemLinha.setImageResource(R.drawable.ellipse_2);
             }
         });
         btn2.setOnClickListener(new View.OnClickListener() {
