@@ -68,7 +68,7 @@ public class Biografia extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.imgAutora).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btnInfo).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 urlListener("http://www.letras.ufmg.br/literafro/autoras/1159-eliana-alves-cruz");
