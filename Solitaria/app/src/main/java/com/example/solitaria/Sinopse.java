@@ -22,7 +22,7 @@ public class Sinopse extends AppCompatActivity {
 //                    Intent telaLinhaTempo = new Intent(getApplicationContext(), LinhaTempo.class);
 //                    startActivity(telaLinhaTempo);
 //                } else {
-//                    findViewById(R.id.btnLinhaTempo).animate().translationY(-120f).setDuration(100).start();
+//                    findViewById(R.id.btnLinhaTempo).animate().translationY(-105f).setDuration(100).start();
 //                    Animacao[0] = true;
 //                }
 //            }
@@ -48,7 +48,7 @@ public class Sinopse extends AppCompatActivity {
                     Intent telaGaleria = new Intent(getApplicationContext(), Galeria.class);
                     startActivity(telaGaleria);
                 } else {
-                    findViewById(R.id.btnGaleria).animate().translationY(-120f).setDuration(100).start();
+                    findViewById(R.id.btnGaleria).animate().translationY(-105f).setDuration(100).start();
                     Animacao[2] = true;
                 }
             }

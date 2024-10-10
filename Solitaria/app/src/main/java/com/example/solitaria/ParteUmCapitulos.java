@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,6 +28,14 @@ public class ParteUmCapitulos extends AppCompatActivity {
             @Override
             public void run() {
                 findViewById(R.id.scrollCap).scrollTo(0, yPosition);
+            }
+        });
+
+        findViewById(R.id.btnVoltar).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaSumario = new Intent(getApplicationContext(), Sumario.class);
+                startActivity(telaSumario);
             }
         });
     }

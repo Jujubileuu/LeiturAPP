@@ -13,6 +13,22 @@
         android:background="@drawable/book"
         tools:layout_editor_absoluteY="76dp">
 
+        <ImageButton
+            android:id="@+id/btnVoltar"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="-3dp"
+            android:backgroundTint="#00FFFFFF"
+            android:rotation="-2"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/marcador_goback" />
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="359dp"
             android:layout_height="650dp"
@@ -38,11 +54,11 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.491"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imgIcon"
+                app:layout_constraintTop_toBottomOf="@+id/imgAutora"
                 app:layout_constraintVertical_bias="0.087" />
 
             <ImageView
-                android:id="@+id/imgIcon"
+                android:id="@+id/imgAutora"
                 android:layout_width="145dp"
                 android:layout_height="145dp"
                 app:layout_constraintBottom_toBottomOf="parent"
