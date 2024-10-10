@@ -58,8 +58,8 @@ public class Perfil extends AppCompatActivity {
         findViewById(R.id.btnVoltar).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent telaSumario = new Intent(getApplicationContext(), Sumario.class);
-                startActivity(telaSumario);
+                Intent telaGaleria = new Intent(getApplicationContext(), Galeria.class);
+                startActivity(telaGaleria);
             }
         });
     }

@@ -75,7 +75,7 @@
         android:layout_width="413dp"
         android:layout_height="655dp"
         android:layout_marginTop="76dp"
-        android:background="@drawable/bookInverted"
+        android:background="@drawable/invertedbook"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -121,6 +121,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/mabelimg"
                 tools:srcCompat="@drawable/mabelimg" />
 
             <TextView
@@ -150,6 +151,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/euniceimg"
                 tools:srcCompat="@drawable/euniceimg" />
 
             <TextView
@@ -179,6 +181,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/jo_opedroimg"
                 tools:srcCompat="@drawable/jo_opedroimg" />
 
             <TextView
@@ -210,6 +213,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/cacauimg"
                 tools:srcCompat="@drawable/cacauimg" />
 
             <TextView
@@ -239,6 +243,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/jurandirimg"
                 tools:srcCompat="@drawable/jurandirimg" />
 
             <TextView
@@ -268,6 +273,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/thiagoimg"
                 tools:srcCompat="@drawable/thiagoimg" />
 
             <TextView
@@ -299,6 +305,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/luciaimg"
                 tools:srcCompat="@drawable/luciaimg" />
 
             <TextView
@@ -328,6 +335,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/camilaimg"
                 tools:srcCompat="@drawable/camilaimg" />
 
             <TextView
@@ -357,6 +365,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/mingalimg"
                 tools:srcCompat="@drawable/mingalimg" />
 
             <TextView

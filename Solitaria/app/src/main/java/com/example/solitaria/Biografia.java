@@ -55,18 +55,18 @@ public class Biografia extends AppCompatActivity {
             }
         });
 
-//        findViewById(R.id.btnAutora).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                if (Animacao[3]) {
-//                    Intent telaAutora = new Intent(getApplicationContext(), Autora.class);
-//                    startActivity(telaAutora);
-//                } else {
-//                    findViewById(R.id.btnAutora).animate().translationY(-110f).setDuration(100).start();
-//                    Animacao[3] = true;
-//                }
-//            }
-//        });
+        findViewById(R.id.btnAutora).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (Animacao[3]) {
+                    Intent telaAutora = new Intent(getApplicationContext(), Biografia.class);
+                    startActivity(telaAutora);
+                } else {
+                    findViewById(R.id.btnAutora).animate().translationY(-110f).setDuration(100).start();
+                    Animacao[3] = true;
+                }
+            }
+        });
 
         findViewById(R.id.imgAutora).setOnClickListener(new View.OnClickListener() {
             @Override

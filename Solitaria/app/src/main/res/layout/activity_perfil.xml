@@ -59,8 +59,8 @@
 
             <ImageView
                 android:id="@+id/imgAutora"
-                android:layout_width="145dp"
-                android:layout_height="145dp"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
