@@ -15,91 +15,133 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="581dp" >
+            android:layout_height="581dp"
+            app:cardBackgroundColor="#F1F9FD">
 
             <ImageView
                 android:id="@+id/imagemlinha"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+                tools:srcCompat="@drawable/table" />
 
             <TextView
                 android:id="@+id/textolinhatempo"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:background="#FFEE56"
+                android:fontFamily="sans-serif-black"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:typeface="sans" />
         </androidx.cardview.widget.CardView>
 
         <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="#F1F9FD">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <ImageButton
+                <Button
+                    android:id="@+id/sair"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFEE56"
+                    android:text="Sair"
+                    android:textColor="@android:color/black"
+                    app:strokeColor="#000000"
+                    app:strokeWidth="5px" />
+
+                <Button
                     android:id="@+id/linhabtn1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="94dp"
+                    android:layout_height="100dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="40dp"
-                    android:background="@android:color/transparent"
-                    app:srcCompat="@drawable/ellipse_2" />
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFEE56"
+                    android:textColor="@android:color/black"
+                    app:strokeColor="#000000"
+                    app:strokeWidth="5px" />
 
-                <ImageButton
+                <Button
                     android:id="@+id/linhabtn2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="94dp"
+                    android:layout_height="100dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="40dp"
-                    android:background="@android:color/transparent"
-                    app:srcCompat="@drawable/ellipse_2" />
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFEE56"
+                    android:textColor="@android:color/black"
+                    app:strokeColor="#000000"
+                    app:strokeWidth="5px" />
 
-                <ImageButton
+                <Button
                     android:id="@+id/linhabtn3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="94dp"
+                    android:layout_height="100dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="40dp"
-                    android:background="@android:color/transparent"
-                    app:srcCompat="@drawable/ellipse_2" />
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFEE56"
+                    android:textColor="@android:color/black"
+                    app:strokeColor="#000000"
+                    app:strokeWidth="5px" />
 
-                <ImageButton
+                <Button
                     android:id="@+id/linhabtn4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="94dp"
+                    android:layout_height="100dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="40dp"
-                    android:background="@android:color/transparent"
-                    app:srcCompat="@drawable/ellipse_2" />
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFEE56"
+                    android:textColor="@android:color/black"
+                    app:strokeColor="#000000"
+                    app:strokeWidth="5px" />
 
-                <ImageButton
+                <Button
                     android:id="@+id/linhabtn5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="94dp"
+                    android:layout_height="100dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="40dp"
-                    android:background="@android:color/transparent"
-                    app:srcCompat="@drawable/ellipse_2" />
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFEE56"
+                    android:textColor="@android:color/black"
+                    app:strokeColor="#000000"
+                    app:strokeWidth="5px" />
 
-                <ImageButton
+                <Button
                     android:id="@+id/linhabtn6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="94dp"
+                    android:layout_height="100dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="40dp"
-                    android:background="@android:color/transparent"
-                    app:srcCompat="@drawable/ellipse_2" />
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFEE56"
+                    android:textColor="@android:color/black"
+                    app:strokeColor="#000000"
+                    app:strokeWidth="5px" />
 
-                <ImageButton
+                <Button
                     android:id="@+id/linhabtn7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="94dp"
+                    android:layout_height="100dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="40dp"
-                    android:background="@android:color/transparent"
-                    app:srcCompat="@drawable/ellipse_2" />
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFEE56"
+                    android:textColor="@android:color/black"
+                    app:strokeColor="#000000"
+                    app:strokeWidth="5px" />
+
 
             </LinearLayout>
         </HorizontalScrollView>

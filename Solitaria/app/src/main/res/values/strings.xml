@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">Solitaria</string>
-    <string name="testelinha1">testeando programa 1</string>
+    <string name="testelinha1">INÍCIO</string>
     <string name="testelinha2">testeando programa 2</string>
+    <string name="testelinha3">testeando programa 3</string>
+    <string name="testelinha4">D programa 4</string>
+    <string name="testelinha5">testeando programa 5</string>
+    <string name="testelinha6">testeando programa 6</string>
+    <string name="testelinha7">testeando DDD 7</string>
+    <string name="testelinha8">testeando programa 8</string>
+    <string name="testelinha9">testeanDDDdo programa 9</string>
+    <string name="testelinha10">testeando programa 10</string>
 </resources>
