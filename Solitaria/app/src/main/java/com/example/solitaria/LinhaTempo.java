@@ -29,6 +29,7 @@ public class LinhaTempo extends AppCompatActivity {
         Button btn5 = findViewById(R.id.linhabtn5);
         Button btn6 = findViewById(R.id.linhabtn6);
         Button btn7 = findViewById(R.id.linhabtn7);
+        Button btn8 = findViewById(R.id.linhabtn8);
 
         sair.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,6 +85,12 @@ public class LinhaTempo extends AppCompatActivity {
             public void onClick(View view) {
                 textolinha.setText(R.string.testelinha7);
                 imagemLinha.setImageResource(R.drawable.ellipse_2);
+            }
+        });
+        btn8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                textolinha.setText(R.string.testelinha8);
             }
         });
 

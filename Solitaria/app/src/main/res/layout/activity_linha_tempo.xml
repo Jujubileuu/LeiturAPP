@@ -16,17 +16,17 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="581dp"
-            app:cardBackgroundColor="#F1F9FD">
+            app:cardBackgroundColor="#FF7700">
 
             <ImageView
                 android:id="@+id/imagemlinha"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:srcCompat="@drawable/table" />
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp" />
 
             <TextView
                 android:id="@+id/textolinhatempo"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FFEE56"
                 android:fontFamily="sans-serif-black"
@@ -38,7 +38,7 @@
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#F1F9FD">
+            android:background="#FF7700">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -132,6 +132,18 @@
 
                 <Button
                     android:id="@+id/linhabtn7"
+                    android:layout_width="94dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFEE56"
+                    android:textColor="@android:color/black"
+                    app:strokeColor="#000000"
+                    app:strokeWidth="5px" />
+
+                <Button
+                    android:id="@+id/linhabtn8"
                     android:layout_width="94dp"
                     android:layout_height="100dp"
                     android:layout_marginLeft="20dp"
