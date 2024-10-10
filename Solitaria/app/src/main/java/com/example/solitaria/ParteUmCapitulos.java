@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewTreeObserver;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -39,19 +40,31 @@ public class ParteUmCapitulos extends AppCompatActivity {
             }
         });
     }
-
     public void setCapitulo(String idCapitulo) {
-        TextView yPText;
+        final TextView yPText;
         switch(idCapitulo) {
             case "quintal":
                 yPText = findViewById(R.id.pt1Quintal);
-                yPosition = yPText.getScrollY();
                 break;
             case "quartobebe":
                 yPText = findViewById(R.id.pt1QuartoBebe);
-                yPosition = yPText.getScrollY();
                 break;
+            default:
+                yPText = null;
         }
-        Toast.makeText(this, String.valueOf(yPosition), Toast.LENGTH_LONG).show();
+
+        if (yPText != null) {
+            yPText.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+                @Override
+                public void onGlobalLayout() {
+                    // Remove the listener to avoid multiple calls
+                    yPText.getViewTreeObserver().removeOnGlobalLayoutListener(this);
+
+                    // Now get the correct position
+                    yPosition = yPText.getTop();
+                    Toast.makeText(ParteUmCapitulos.this, String.valueOf(yPosition), Toast.LENGTH_LONG).show();
+                }
+            });
+        }
     }
 }
