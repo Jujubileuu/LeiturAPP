@@ -375,6 +375,7 @@
                     tools:layout_editor_absoluteY="120dp" />
 
                 <TextView
+                    android:id="@+id/pt2Quintal"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -388,6 +389,7 @@
                     tools:layout_editor_absoluteY="534dp" />
 
                 <TextView
+                    android:id="@+id/pt2SalaEstar"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -401,6 +403,7 @@
                     tools:layout_editor_absoluteY="534dp" />
 
                 <TextView
+                    android:id="@+id/pt2Jardim"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -414,6 +417,7 @@
                     tools:layout_editor_absoluteY="534dp" />
 
                 <TextView
+                    android:id="@+id/pt2Parede"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -427,6 +431,7 @@
                     tools:layout_editor_absoluteY="534dp" />
 
                 <TextView
+                    android:id="@+id/pt2QuartoDespejo"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -440,6 +445,7 @@
                     tools:layout_editor_absoluteY="534dp" />
 
                 <TextView
+                    android:id="@+id/pt2Salinha"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -453,6 +459,7 @@
                     tools:layout_editor_absoluteY="534dp" />
 
                 <TextView
+                    android:id="@+id/pt2AreaServico"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -466,6 +473,7 @@
                     tools:layout_editor_absoluteY="534dp" />
 
                 <TextView
+                    android:id="@+id/pt2Capela"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -479,6 +487,7 @@
                     tools:layout_editor_absoluteY="534dp" />
 
                 <TextView
+                    android:id="@+id/pt2PortaEntrada"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -492,6 +501,7 @@
                     tools:layout_editor_absoluteY="534dp" />
 
                 <TextView
+                    android:id="@+id/pt2Chao"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -505,6 +515,7 @@
                     tools:layout_editor_absoluteY="534dp" />
 
                 <TextView
+                    android:id="@+id/pt2CriadaMuda"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -518,6 +529,7 @@
                     tools:layout_editor_absoluteY="534dp" />
 
                 <TextView
+                    android:id="@+id/pt2Telefone"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -531,6 +543,7 @@
                     tools:layout_editor_absoluteY="534dp" />
 
                 <TextView
+                    android:id="@+id/pt2EspelhoCristal"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -544,6 +557,7 @@
                     tools:layout_editor_absoluteY="534dp" />
 
                 <TextView
+                    android:id="@+id/pt2Laje"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -571,6 +585,7 @@
                     tools:layout_editor_absoluteY="120dp" />
 
                 <TextView
+                    android:id="@+id/pt3QuartoEmpregada"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -584,6 +599,7 @@
                     tools:layout_editor_absoluteY="534dp" />
 
                 <TextView
+                    android:id="@+id/pt3QuartoPorteiro"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -597,6 +613,7 @@
                     tools:layout_editor_absoluteY="534dp" />
 
                 <TextView
+                    android:id="@+id/pt3QuartoHospital"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
@@ -610,6 +627,7 @@
                     tools:layout_editor_absoluteY="534dp" />
 
                 <TextView
+                    android:id="@+id/pt3QuartoDescanso"
                     android:layout_width="300dp"
                     android:layout_height="22dp"
                     android:layout_marginBottom="10dp"
