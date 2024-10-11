@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Solitaria"
         tools:targetApi="31">
         <activity
+            android:name=".ParteTresCapitulos"
+            android:exported="false" />
+        <activity
             android:name=".Biografia"
             android:exported="false" />
         <activity

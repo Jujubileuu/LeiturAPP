@@ -79,11 +79,151 @@ public class Sumario extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.pt1PlantaBaixa).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
+                idCapitulo = "plantabaixa";
+                telaCap.putExtra("idCapitulo", idCapitulo);
+                startActivity(telaCap);
+            }
+        });
+
+        findViewById(R.id.pt1Piscina).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
+                idCapitulo = "piscina";
+                telaCap.putExtra("idCapitulo", idCapitulo);
+                startActivity(telaCap);
+            }
+        });
+
+        findViewById(R.id.pt1Cozinha).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
+                idCapitulo = "cozinha";
+                telaCap.putExtra("idCapitulo", idCapitulo);
+                startActivity(telaCap);
+            }
+        });
+
+        findViewById(R.id.pt1Escritorio).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
+                idCapitulo = "escritorio";
+                telaCap.putExtra("idCapitulo", idCapitulo);
+                startActivity(telaCap);
+            }
+        });
+
+        findViewById(R.id.pt1Portaria).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
+                idCapitulo = "portaria";
+                telaCap.putExtra("idCapitulo", idCapitulo);
+                startActivity(telaCap);
+            }
+        });
+
+        findViewById(R.id.pt1SalaoFestas).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
+                idCapitulo = "salaofestas";
+                telaCap.putExtra("idCapitulo", idCapitulo);
+                startActivity(telaCap);
+            }
+        });
+
+        findViewById(R.id.pt1Portao).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
+                idCapitulo = "portao";
+                telaCap.putExtra("idCapitulo", idCapitulo);
+                startActivity(telaCap);
+            }
+        });
+
+        findViewById(R.id.pt1Calcada).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
+                idCapitulo = "calcada";
+                telaCap.putExtra("idCapitulo", idCapitulo);
+                startActivity(telaCap);
+            }
+        });
+
         findViewById(R.id.pt1QuartoBebe).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
                 idCapitulo = "quartobebe";
+                telaCap.putExtra("idCapitulo", idCapitulo);
+                startActivity(telaCap);
+            }
+        });
+
+        findViewById(R.id.pt1Escadas).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
+                idCapitulo = "escadas";
+                telaCap.putExtra("idCapitulo", idCapitulo);
+                startActivity(telaCap);
+            }
+        });
+
+        findViewById(R.id.pt1Banheiro).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
+                idCapitulo = "banheiro";
+                telaCap.putExtra("idCapitulo", idCapitulo);
+                startActivity(telaCap);
+            }
+        });
+
+        findViewById(R.id.pt1Pracinha).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
+                idCapitulo = "pracinha";
+                telaCap.putExtra("idCapitulo", idCapitulo);
+                startActivity(telaCap);
+            }
+        });
+
+        findViewById(R.id.pt1Recepcao).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
+                idCapitulo = "recepcao";
+                telaCap.putExtra("idCapitulo", idCapitulo);
+                startActivity(telaCap);
+            }
+        });
+
+        findViewById(R.id.pt1Banheirinho).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
+                idCapitulo = "banheirinho";
+                telaCap.putExtra("idCapitulo", idCapitulo);
+                startActivity(telaCap);
+            }
+        });
+
+        findViewById(R.id.pt1Janela).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaCap = new Intent(getApplicationContext(), ParteUmCapitulos.class);
+                idCapitulo = "janela";
                 telaCap.putExtra("idCapitulo", idCapitulo);
                 startActivity(telaCap);
             }

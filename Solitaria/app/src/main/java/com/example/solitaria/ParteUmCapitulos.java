@@ -46,8 +46,50 @@ public class ParteUmCapitulos extends AppCompatActivity {
             case "quintal":
                 yPText = findViewById(R.id.pt1Quintal);
                 break;
+            case "plantabaixa":
+                yPText = findViewById(R.id.pt1PlantaBaixa);
+                break;
+            case "piscina":
+                yPText = findViewById(R.id.pt1Piscina);
+                break;
+            case "cozinha":
+                yPText = findViewById(R.id.pt1Cozinha);
+                break;
+            case "escritorio":
+                yPText = findViewById(R.id.pt1Escritorio);
+                break;
+            case "portaria":
+                yPText = findViewById(R.id.pt1Portaria);
+                break;
+            case "salaofestas":
+                yPText = findViewById(R.id.pt1SalaoFestas);
+                break;
+            case "portao":
+                yPText = findViewById(R.id.pt1Portao);
+                break;
+            case "calcada":
+                yPText = findViewById(R.id.pt1Calcada);
+                break;
             case "quartobebe":
                 yPText = findViewById(R.id.pt1QuartoBebe);
+                break;
+            case "escadas":
+                yPText = findViewById(R.id.pt1Escadas);
+                break;
+            case "banheiro":
+                yPText = findViewById(R.id.pt1Banheiro);
+                break;
+            case "pracinha":
+                yPText = findViewById(R.id.pt1Pracinha);
+                break;
+            case "recepcao":
+                yPText = findViewById(R.id.pt1Recepcao);
+                break;
+            case "banheirinho":
+                yPText = findViewById(R.id.pt1Banheirinho);
+                break;
+            case "janela":
+                yPText = findViewById(R.id.pt1Janela);
                 break;
             default:
                 yPText = null;
