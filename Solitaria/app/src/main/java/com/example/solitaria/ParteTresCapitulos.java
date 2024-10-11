@@ -48,7 +48,7 @@ public class ParteTresCapitulos extends AppCompatActivity {
             case "quartoporteiro":
                 yPText = findViewById(R.id.pt3QuartoPorteiro);
                 break;
-            case "quarthospital":
+            case "quartohospital":
                 yPText = findViewById(R.id.pt3QuartoHospital);
                 break;
             case "quartodescanso":
