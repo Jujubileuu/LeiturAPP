@@ -100,6 +100,7 @@
                 android:layout_marginTop="-20dp"
                 android:layout_weight="1"
                 android:baselineAligned="false"
+                android:fontFamily="sans-serif-black"
                 android:text="SINOPSE"
                 android:textAlignment="center"
                 android:textColor="#000000"
@@ -115,10 +116,11 @@
 
             <TextView
                 android:layout_width="320dp"
-                android:layout_height="151dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="-30dp"
                 android:layout_weight="1"
                 android:baselineAligned="false"
+                android:fontFamily="serif"
                 android:text="Solitária conta a história de duas mulheres negras, Mabel e Eunice, mãe e filha, que moram no trabalho, um condomínio de luxo desses encontrados em qualquer grande cidade brasileira. Eunice, a mãe, é testemunha-chave de um crime chocante ocorrido na casa dos patrões. Mabel, a filha, constrói o caminho que leva não apenas à elucidação deste crime, mas a uma mudança radical na vida das pessoas que cercam as protagonistas."
                 android:textAlignment="viewStart"
                 android:textColor="#000000"
@@ -138,7 +140,8 @@
                 android:layout_marginTop="-50dp"
                 android:layout_weight="1"
                 android:baselineAligned="false"
-                android:text="Na parte superior de algumas páginas há presença de quatro marcadores de páginas com coloração distinta, sendo cada cor relacionada a uma página diferente:\n\n->Verde simboliza a linha do tempo, onde estão reunidos os principais eventos do livro;\n\n->Azul simboliza o sumário onde há resumos de cada capítulo do livro;\n\n->Amarelo simboliza a galeria onde se encontra os principais personagens da obra e um pouco de suas histórias;\n\n->Vermelho leva a biografia da autora Eliana Alves."
+                android:fontFamily="serif"
+                android:text="Na parte superior de algumas páginas há presença de quatro marcadores de páginas, cada uma está relacionada a uma página diferente:\n\n->Verde simboliza a linha do tempo, onde estão reunidos os principais eventos do livro;\n->Azul simboliza o sumário onde há resumos de cada capítulo do livro;\n->Amarelo é a galeria onde se encontra os principais personagens da obra;\n->Vermelho leva a biografia da autora Eliana Alves."
                 android:textAlignment="viewStart"
                 android:textColor="#000000"
                 android:textSize="16sp"
@@ -149,7 +152,7 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.564" />
+                app:layout_constraintVertical_bias="0.672" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
