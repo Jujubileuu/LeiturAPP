@@ -66,5 +66,13 @@ public class Sinopse extends AppCompatActivity {
                 }
             }
         });
+
+        findViewById(R.id.btnHome).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaMain = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(telaMain);
+            }
+        });
     }
 }
