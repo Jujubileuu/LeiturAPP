@@ -408,5 +408,13 @@ public class Sumario extends AppCompatActivity {
                 startActivity(telaCap);
             }
         });
+
+        findViewById(R.id.btnHome).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaMain = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(telaMain);
+            }
+        });
     }
 }
