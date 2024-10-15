@@ -2,6 +2,8 @@ package com.example.solitaria;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -43,6 +45,9 @@ public class LinhaTempo extends AppCompatActivity {
             public void onClick(View view) {
                 textolinha.setText(R.string.testelinha1);
                 imagemLinha.setImageResource(R.drawable.ellipse_2);
+                ObjectAnimator animation = ObjectAnimator.ofFloat(textolinha,"translationY",-50,0);
+                animation.setDuration(500);
+                animation.start();
             }
         });
         btn2.setOnClickListener(new View.OnClickListener() {
