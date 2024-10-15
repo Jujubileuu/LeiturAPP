@@ -97,6 +97,7 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="-20dp"
                 android:layout_weight="1"
                 android:baselineAligned="false"
                 android:text="SINOPSE"
@@ -115,10 +116,11 @@
             <TextView
                 android:layout_width="320dp"
                 android:layout_height="151dp"
+                android:layout_marginTop="-30dp"
                 android:layout_weight="1"
                 android:baselineAligned="false"
-                android:text="dolor sit amet, consectetur adipiscing elit. Suspendisse mi dui, malesuada ac gravida eu, iaculis quis ipsum. Nullam ultricies rutrum lobortis. In nunc odio, condimentum vel lorem quis, finibus sagittis turpis. Curabitur at dapibus mi, at lacinia libero. Quisque fringilla sapien et risus dictum tincidunt. Sed ullamcorper eget est quis laoreet. Praesent ac metus id enim venenatis posuere eget vel tellus."
-                android:textAlignment="center"
+                android:text="Solitária conta a história de duas mulheres negras, Mabel e Eunice, mãe e filha, que moram no trabalho, um condomínio de luxo desses encontrados em qualquer grande cidade brasileira. Eunice, a mãe, é testemunha-chave de um crime chocante ocorrido na casa dos patrões. Mabel, a filha, constrói o caminho que leva não apenas à elucidação deste crime, mas a uma mudança radical na vida das pessoas que cercam as protagonistas."
+                android:textAlignment="viewStart"
                 android:textColor="#000000"
                 android:textSize="16sp"
                 android:translationX="19dp"
@@ -129,6 +131,25 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-50dp"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:text="Na parte superior de algumas páginas há presença de quatro marcadores de páginas com coloração distinta, sendo cada cor relacionada a uma página diferente:\n\n->Verde simboliza a linha do tempo, onde estão reunidos os principais eventos do livro;\n\n->Azul simboliza o sumário onde há resumos de cada capítulo do livro;\n\n->Amarelo simboliza a galeria onde se encontra os principais personagens da obra e um pouco de suas histórias;\n\n->Vermelho leva a biografia da autora Eliana Alves."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:translationX="19dp"
+                android:translationY="120dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.564" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
