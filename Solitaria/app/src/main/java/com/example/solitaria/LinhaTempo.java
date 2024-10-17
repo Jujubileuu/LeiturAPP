@@ -41,7 +41,7 @@ public class LinhaTempo extends AppCompatActivity {
         sair.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent telaMain = new Intent(getApplicationContext(), MainActivity.class);
+                Intent telaMain = new Intent(getApplicationContext(), Sinopse.class);
                 startActivity(telaMain);
             }
         });
