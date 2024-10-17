@@ -28,10 +28,11 @@
 
             <TextView
                 android:id="@+id/textolinhatempo"
-                android:layout_width="match_parent"
+                android:layout_width="410dp"
                 android:layout_height="71dp"
                 android:background="#FFA944"
                 android:fontFamily="sans-serif-black"
+                android:text="\nLINHA DO TEMPO"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="20sp"
@@ -70,8 +71,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
                     android:textColor="@android:color/black"
-                    app:strokeColor="#474a50"
-                    app:strokeWidth="0px" />
+                    app:strokeColor="#FF8F3E"
+                    app:strokeWidth="25px" />
 
                 <Button
                     android:id="@+id/linhabtn2"
@@ -82,8 +83,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
                     android:textColor="@android:color/black"
-                    app:strokeColor="#474a50"
-                    app:strokeWidth="0px" />
+                    app:strokeColor="#FF8F3E"
+                    app:strokeWidth="25px" />
 
                 <Button
                     android:id="@+id/linhabtn3"
@@ -94,8 +95,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
                     android:textColor="@android:color/black"
-                    app:strokeColor="#474a50"
-                    app:strokeWidth="0px" />
+                    app:strokeColor="#FF8F3E"
+                    app:strokeWidth="25px" />
 
                 <Button
                     android:id="@+id/linhabtn4"
@@ -106,8 +107,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
                     android:textColor="@android:color/black"
-                    app:strokeColor="#474a50"
-                    app:strokeWidth="0px" />
+                    app:strokeColor="#FF8F3E"
+                    app:strokeWidth="25px" />
 
                 <Button
                     android:id="@+id/linhabtn5"
@@ -118,8 +119,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
                     android:textColor="@android:color/black"
-                    app:strokeColor="#474a50"
-                    app:strokeWidth="0px" />
+                    app:strokeColor="#FF8F3E"
+                    app:strokeWidth="25px" />
 
                 <Button
                     android:id="@+id/linhabtn6"
@@ -130,8 +131,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
                     android:textColor="@android:color/black"
-                    app:strokeColor="#474a50"
-                    app:strokeWidth="0px" />
+                    app:strokeColor="#FF8F3E"
+                    app:strokeWidth="25px" />
 
                 <Button
                     android:id="@+id/linhabtn7"
@@ -142,8 +143,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
                     android:textColor="@android:color/black"
-                    app:strokeColor="#474a50"
-                    app:strokeWidth="0px" />
+                    app:strokeColor="#FF8F3E"
+                    app:strokeWidth="25px" />
 
                 <Button
                     android:id="@+id/linhabtn8"
@@ -154,8 +155,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
                     android:textColor="@android:color/black"
-                    app:strokeColor="#474a50"
-                    app:strokeWidth="0px" />
+                    app:strokeColor="#FF8F3E"
+                    app:strokeWidth="25px" />
 
                 <Button
                     android:id="@+id/linhabtn9"
@@ -166,8 +167,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
                     android:textColor="@android:color/black"
-                    app:strokeColor="#474a50"
-                    app:strokeWidth="0px" />
+                    app:strokeColor="#FF8F3E"
+                    app:strokeWidth="25px" />
 
                 <Button
                     android:id="@+id/linhabtn10"
@@ -178,8 +179,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
                     android:textColor="@android:color/black"
-                    app:strokeColor="#474a50"
-                    app:strokeWidth="0px" />
+                    app:strokeColor="#FF8F3E"
+                    app:strokeWidth="25px" />
 
                 <Button
                     android:id="@+id/linhabtn11"
@@ -190,8 +191,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
                     android:textColor="@android:color/black"
-                    app:strokeColor="#474a50"
-                    app:strokeWidth="0px" />
+                    app:strokeColor="#FF8F3E"
+                    app:strokeWidth="25px" />
 
                 <Button
                     android:id="@+id/linhabtn12"
@@ -202,8 +203,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
                     android:textColor="@android:color/black"
-                    app:strokeColor="#474a50"
-                    app:strokeWidth="0px" />
+                    app:strokeColor="#FF8F3E"
+                    app:strokeWidth="25px" />
 
                 <Button
                     android:id="@+id/linhabtn13"
@@ -214,8 +215,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
                     android:textColor="@android:color/black"
-                    app:strokeColor="#474a50"
-                    app:strokeWidth="0px" />
+                    app:strokeColor="#FF8F3E"
+                    app:strokeWidth="25px" />
 
 
             </LinearLayout>
