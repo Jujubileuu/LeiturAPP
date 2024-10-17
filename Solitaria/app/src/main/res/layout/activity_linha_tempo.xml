@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF5722"
-    android:backgroundTint="#FFA944"
+    android:background="#FFC107"
+    android:backgroundTint="#FF5722"
     tools:context=".LinhaTempo">
 
     <LinearLayout
@@ -147,6 +147,66 @@
 
                 <Button
                     android:id="@+id/linhabtn8"
+                    android:layout_width="94dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFA944"
+                    android:textColor="@android:color/black"
+                    app:strokeColor="#474a50"
+                    app:strokeWidth="0px" />
+
+                <Button
+                    android:id="@+id/linhabtn9"
+                    android:layout_width="94dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFA944"
+                    android:textColor="@android:color/black"
+                    app:strokeColor="#474a50"
+                    app:strokeWidth="0px" />
+
+                <Button
+                    android:id="@+id/linhabtn10"
+                    android:layout_width="94dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFA944"
+                    android:textColor="@android:color/black"
+                    app:strokeColor="#474a50"
+                    app:strokeWidth="0px" />
+
+                <Button
+                    android:id="@+id/linhabtn11"
+                    android:layout_width="94dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFA944"
+                    android:textColor="@android:color/black"
+                    app:strokeColor="#474a50"
+                    app:strokeWidth="0px" />
+
+                <Button
+                    android:id="@+id/linhabtn12"
+                    android:layout_width="94dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFA944"
+                    android:textColor="@android:color/black"
+                    app:strokeColor="#474a50"
+                    app:strokeWidth="0px" />
+
+                <Button
+                    android:id="@+id/linhabtn13"
                     android:layout_width="94dp"
                     android:layout_height="100dp"
                     android:layout_marginLeft="20dp"

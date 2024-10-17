@@ -1,13 +1,30 @@
 <resources>
     <string name="app_name">Solitaria</string>
-    <string name="testelinha1">INÍCIO</string>
-    <string name="testelinha2">testeando programa 2</string>
-    <string name="testelinha3">testeando programa 3</string>
-    <string name="testelinha4">D programa 4</string>
-    <string name="testelinha5">testeando programa 5</string>
-    <string name="testelinha6">testeando programa 6</string>
-    <string name="testelinha7">testeando DDD 7</string>
-    <string name="testelinha8">cytchfchjcgchfxdzhrdztdzyrzxtdxdxgddxffdhfchfsxgdxgdzdzdzfsagdsgsgfsgfsfsgfs</string>
-    <string name="testelinha9">testeanDDDdo programa 9</string>
-    <string name="testelinha10">testeando programa 10</string>
+    <string name="testelinha1">Mabel ainda criança começa a trabalhar na casa de Tiago e Lúcia, mesmo sem ser paga para tal</string>
+    <string name="testelinha2">Criança que estava sobe os cuidados de Irene acaba se afogando e sendo levada ao hospital</string>
+    <string name="testelinha3">Namoro entre Mabel e João Pedro</string>
+    <string name="testelinha4">Mabel engravida de João Pedro e acaba abortando o bebê</string>
+    <string name="testelinha5">Mabel engravida de João Pedro e acaba abortando o bebê</string>
+    <string name="testelinha6">Camila a filha de Tiago e Lúcia nasce</string>
+    <string name="testelinha7">Eunice e Jurandir descobrem o relacionamento de Mabel e João Pedro</string>
+    <string name="testelinha8">Mabel decide abandonar o trabalho de empregada</string>
+    <string name="testelinha9">Jurandir e Eunice começam um relacionamento</string>
+    <string name="testelinha10">Eunice abandona o trabalho de empregada</string>
+    <string name="testelinha11">Criança que estava sobe os cuidados de Camila acaba morrendo após cair a janela</string>
+    <string name="testelinha12">Eunice que estava na casa dos antigos patrões acaba denunciando Camila as autoridades</string>
+    <string name="testelinha13">Mabel consegue se tornar médica</string>
+    <string name="testeimg1">R.drawable.linhatempo1</string>
+    <string name="testeimg2">R.drawable.linhatempo2</string>
+    <string name="testeimg3">R.drawable.linhatempo3</string>
+    <string name="testeimg4">R.drawable.linhatempo4</string>
+    <string name="testeimg5">R.drawable.linhatempo5</string>
+    <string name="testeimg6">R.drawable.linhatempo6</string>
+    <string name="testeimg7">R.drawable.linhatempo7</string>
+    <string name="testeimg8">R.drawable.linhatempo8</string>
+    <string name="testeimg9">R.drawable.linhatempo9</string>
+    <string name="testeimg10">R.drawable.linhatempo10</string>
+    <string name="testeimg11">R.drawable.linhatempo11</string>
+    <string name="testeimg12">R.drawable.linhatempo12</string>
+    <string name="testeimg13">R.drawable.linhatempo13</string>
+
 </resources>
