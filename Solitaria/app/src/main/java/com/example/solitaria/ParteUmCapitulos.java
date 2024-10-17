@@ -104,7 +104,7 @@ public class ParteUmCapitulos extends AppCompatActivity {
 
                     // Now get the correct position
                     yPosition = yPText.getTop();
-                    Toast.makeText(ParteUmCapitulos.this, String.valueOf(yPosition), Toast.LENGTH_LONG).show();
+//                    Toast.makeText(ParteUmCapitulos.this, String.valueOf(yPosition), Toast.LENGTH_LONG).show();
                 }
             });
         }
