@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/table"
+    tools:context=".Sumario">
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/icondoor" />
+
+    <ImageButton
+        android:id="@+id/btnLinhaTempo"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/marcador_linhatempo" />
+
+    <ImageButton
+        android:id="@+id/btnSumario"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/marcador_sumario" />
+
+    <ImageButton
+        android:id="@+id/btnGaleria"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="140dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/marcador_galeria" />
+
+    <ImageButton
+        android:id="@+id/btnAutora"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="210dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/marcador_autora" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="413dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/invertedbook"
+        android:rotation="360"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="361dp"
+            android:layout_height="550dp"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="51dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="54dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="361dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="49dp"
+                tools:layout_editor_absoluteY="30dp">
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="sans-serif-black"
+                    android:text="SUMÁRIO"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="34sp"
+                    tools:layout_editor_absoluteX="110dp"
+                    tools:layout_editor_absoluteY="43dp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="sans-serif-black"
+                    android:text="PRIMEIRA PARTE:"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="19dp"
+                    tools:layout_editor_absoluteY="120dp" />
+
+                <TextView
+                    android:id="@+id/pt1Quintal"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginStart="29dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Quintal"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+                <TextView
+                    android:id="@+id/pt1PlantaBaixa"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Planta Baixa"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="163dp" />
+
+                <TextView
+                    android:id="@+id/pt1Piscina"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Piscina"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="227dp" />
+
+                <TextView
+                    android:id="@+id/pt1Cozinha"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Cozinha"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+                <TextView
+                    android:id="@+id/pt1Escritorio"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Escritório"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="248dp" />
+
+                <TextView
+                    android:id="@+id/pt1Portaria"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Portaria"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/pt1SalaoFestas"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Salão de Festas"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="291dp" />
+
+                <TextView
+                    android:id="@+id/pt1Portao"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Portão"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="270dp" />
+
+                <TextView
+                    android:id="@+id/pt1Calcada"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Calçada"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="378dp" />
+
+                <TextView
+                    android:id="@+id/pt1QuartoBebe"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Quarto do Bebê"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="400dp" />
+
+                <TextView
+                    android:id="@+id/pt1Escadas"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Escadas"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="423dp" />
+
+                <TextView
+                    android:id="@+id/pt1Banheiro"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Banheiro"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="470dp" />
+
+                <TextView
+                    android:id="@+id/pt1Pracinha"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Pracinha"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="447dp" />
+
+                <TextView
+                    android:id="@+id/pt1Recepcao"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Recepção"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="491dp" />
+
+                <TextView
+                    android:id="@+id/pt1Banheirinho"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Banheirinho"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="513dp" />
+
+                <TextView
+                    android:id="@+id/pt1Janela"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Janela"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="sans-serif-black"
+                    android:text="SEGUNDA PARTE:"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="19dp"
+                    tools:layout_editor_absoluteY="120dp" />
+
+                <TextView
+                    android:id="@+id/pt2Quintal"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Quintal"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:id="@+id/pt2SalaEstar"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Sala de Estar"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:id="@+id/pt2Jardim"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Jardim"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:id="@+id/pt2Parede"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Parede"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:id="@+id/pt2QuartoDespejo"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Quarto de Despejo"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:id="@+id/pt2Salinha"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Salinha"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:id="@+id/pt2AreaServico"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Área de Serviço"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:id="@+id/pt2Capela"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Capela"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:id="@+id/pt2PortaEntrada"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Porta de Entrada"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:id="@+id/pt2Chao"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Chão"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:id="@+id/pt2CriadaMuda"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Criada-Muda"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:id="@+id/pt2Telefone"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Telefone"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:id="@+id/pt2EspelhoCristal"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Espelho de Cristal"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:id="@+id/pt2Laje"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Laje"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="sans-serif-black"
+                    android:text="TERCEIRA PARTE:"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="19dp"
+                    tools:layout_editor_absoluteY="120dp" />
+
+                <TextView
+                    android:id="@+id/pt3QuartoEmpregada"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Quarto de Empregada"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:id="@+id/pt3QuartoPorteiro"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Quarto de Porteiro"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:id="@+id/pt3QuartoHospital"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Quarto de Hospital"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+                <TextView
+                    android:id="@+id/pt3QuartoDescanso"
+                    android:layout_width="300dp"
+                    android:layout_height="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Quarto de Descanso"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="29dp"
+                    tools:layout_editor_absoluteY="534dp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

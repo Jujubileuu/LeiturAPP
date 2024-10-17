@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/table"
+    tools:context=".Biografia">
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/icondoor" />
+
+    <ImageButton
+        android:id="@+id/btnLinhaTempo"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/marcador_linhatempo" />
+
+    <ImageButton
+        android:id="@+id/btnSumario"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/marcador_sumario" />
+
+    <ImageButton
+        android:id="@+id/btnGaleria"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="140dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/marcador_galeria" />
+
+    <ImageButton
+        android:id="@+id/btnAutora"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="210dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/marcador_autora" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="413dp"
+        android:layout_height="655dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/invertedbook"
+        android:rotation="360"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.124"
+            app:srcCompat="@drawable/eli" />
+
+        <ScrollView
+            android:layout_width="361dp"
+            android:layout_height="400dp"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="54dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.0">
+
+            <LinearLayout
+                android:layout_width="361dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="49dp"
+                tools:layout_editor_absoluteY="30dp">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Eliana Alves Cruz é uma escritora, jornalista e pesquisadora brasileira, amplamente reconhecida por suas contribuições à literatura contemporânea, especialmente por dar destaque à história e cultura afro-brasileira. Nascida no Rio de Janeiro, ela cresceu em uma família que sempre valorizou a preservação da memória ancestral, o que influenciou profundamente seu trabalho literário. Com um estilo que mescla ficção e pesquisa histórica, Eliana utiliza a literatura como uma ferramenta de resistência e de recuperação de narrativas marginalizadas."
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="19dp"
+                    tools:layout_editor_absoluteY="120dp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Seu livro mais conhecido, O Crime do Cais do Valongo (2018), remonta ao período escravocrata do Brasil e traz à tona histórias esquecidas, revelando as violências e atrocidades sofridas pelos negros escravizados, ao mesmo tempo em que destaca suas formas de resistência. A obra se passa no Rio de Janeiro do século XIX, tendo o Cais do Valongo, local histórico de desembarque de escravizados africanos, como pano de fundo para um romance policial que discute as questões de raça, memória e justiça."
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="19dp"
+                    tools:layout_editor_absoluteY="120dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Outro de seus trabalhos importantes é Nada Digo de Ti, Que em Ti Não Veja (2020), uma obra profundamente envolvida com o passado colonial brasileiro, onde a autora revisita personagens históricas e simbólicas para abordar a complexidade das relações raciais e de poder no Brasil. Através dessa obra, Eliana oferece ao leitor uma nova perspectiva sobre o legado colonial e escravocrata do país, iluminando os papéis que as pessoas negras desempenharam e ainda desempenham na construção da sociedade brasileira."
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="19dp"
+                    tools:layout_editor_absoluteY="120dp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Em Solitária (2021), Eliana Alves Cruz explora a solidão feminina, as violências estruturais e a resistência de mulheres negras no contexto urbano contemporâneo. A obra é também uma reflexão profunda sobre os impactos psicológicos do racismo e da desigualdade de gênero. Neste romance, a autora utiliza a solidão como metáfora para as diversas camadas de exclusão e invisibilidade que marcam as vidas de muitas mulheres negras no Brasil."
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="19dp"
+                    tools:layout_editor_absoluteY="120dp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Além dessas publicações, Eliana é colunista em diversos veículos de imprensa e uma voz ativa na defesa da representatividade e da diversidade na literatura. Ela se dedica a promover a visibilidade da população afrodescendente no Brasil, lutando contra o apagamento histórico e cultural dessa comunidade. Seu trabalho não apenas revisita o passado, mas também projeta novas possibilidades de identidade e pertencimento para as gerações futuras."
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="19dp"
+                    tools:layout_editor_absoluteY="120dp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:fontFamily="serif"
+                    android:text="Eliana Alves Cruz é uma autora fundamental no cenário literário brasileiro contemporâneo, oferecendo uma perspectiva única sobre a história e a cultura afro-brasileira. Com uma prosa potente, ela desafia as narrativas oficiais e proporciona um espaço de memória e resistência para a população negra no Brasil. Suas obras são um testemunho da importância de incluir vozes diversas na construção da literatura e da historiografia do país."
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="19dp"
+                    tools:layout_editor_absoluteY="120dp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#7F4834"
+            android:fontFamily="serif"
+            android:text="Mais\nInformações"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.196" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

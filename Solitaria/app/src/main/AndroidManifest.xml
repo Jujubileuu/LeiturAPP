@@ -13,11 +13,28 @@
         android:theme="@style/Theme.Solitaria"
         tools:targetApi="31">
         <activity
-
             android:name=".LinhaTempo"
-
-            android:name=".testecap"
-
+            android:name=".testecap" />
+        <activity
+            android:name=".ParteDoisCapitulos"
+            android:exported="false" />
+        <activity
+            android:name=".ParteTresCapitulos"
+            android:exported="false" />
+        <activity
+            android:name=".Biografia"
+            android:exported="false" />
+        <activity
+            android:name=".Sumario"
+            android:exported="false" />
+        <activity
+            android:name=".ParteUmCapitulos"
+            android:exported="false" />
+        <activity
+            android:name=".Galeria"
+            android:exported="false" />
+        <activity
+            android:name=".Perfil"
             android:exported="false" />
         <activity
             android:name=".Sinopse"

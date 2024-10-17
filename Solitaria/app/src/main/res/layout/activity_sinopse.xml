@@ -7,6 +7,70 @@
     android:background="@drawable/table"
     tools:context=".Sinopse">
 
+    <ImageButton
+        android:id="@+id/btnLinhaTempo"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/marcador_linhatempo" />
+
+    <ImageButton
+        android:id="@+id/btnSumario"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/marcador_sumario" />
+
+    <ImageButton
+        android:id="@+id/btnGaleria"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/marcador_galeria" />
+
+    <ImageButton
+        android:id="@+id/btnAutora"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/marcador_autora" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="413dp"
@@ -14,6 +78,7 @@
         android:background="@drawable/book"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
@@ -33,37 +98,79 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="-20dp"
                 android:layout_weight="1"
                 android:baselineAligned="false"
+                android:fontFamily="sans-serif-black"
                 android:text="SINOPSE"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="34sp"
+                android:translationX="110dp"
+                android:translationY="43dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.08" />
+                app:layout_constraintVertical_bias="0.0" />
 
             <TextView
                 android:layout_width="320dp"
-                android:layout_height="151dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-30dp"
                 android:layout_weight="1"
                 android:baselineAligned="false"
-                android:text="dolor sit amet, consectetur adipiscing elit. Suspendisse mi dui, malesuada ac gravida eu, iaculis quis ipsum. Nullam ultricies rutrum lobortis. In nunc odio, condimentum vel lorem quis, finibus sagittis turpis. Curabitur at dapibus mi, at lacinia libero. Quisque fringilla sapien et risus dictum tincidunt. Sed ullamcorper eget est quis laoreet. Praesent ac metus id enim venenatis posuere eget vel tellus."
-                android:textAlignment="center"
+                android:fontFamily="serif"
+                android:text="Solitária conta a história de duas mulheres negras, Mabel e Eunice, mãe e filha, que moram no trabalho, um condomínio de luxo desses encontrados em qualquer grande cidade brasileira. Eunice, a mãe, é testemunha-chave de um crime chocante ocorrido na casa dos patrões. Mabel, a filha, constrói o caminho que leva não apenas à elucidação deste crime, mas a uma mudança radical na vida das pessoas que cercam as protagonistas."
+                android:textAlignment="viewStart"
                 android:textColor="#000000"
                 android:textSize="16sp"
+                android:translationX="19dp"
+                android:translationY="120dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.589"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.278" />
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-50dp"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:fontFamily="serif"
+                android:text="Na parte superior de algumas páginas há presença de quatro marcadores de páginas, cada uma está relacionada a uma página diferente:\n\n->Verde simboliza a linha do tempo, onde estão reunidos os principais eventos do livro;\n->Azul simboliza o sumário onde há resumos de cada capítulo do livro;\n->Amarelo é a galeria onde se encontra os principais personagens da obra;\n->Vermelho leva a biografia da autora Eliana Alves."
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:translationX="19dp"
+                android:translationY="120dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.672" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/icondoor" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

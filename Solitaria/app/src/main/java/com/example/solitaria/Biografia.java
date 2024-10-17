@@ -3,15 +3,16 @@ package com.example.solitaria;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
-public class Sinopse extends AppCompatActivity {
+public class Biografia extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sinopse);
+        setContentView(R.layout.activity_biografia);
 
         final boolean[] Animacao = {false, false, false, false};
 
@@ -67,6 +68,13 @@ public class Sinopse extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.btnInfo).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                urlListener("http://www.letras.ufmg.br/literafro/autoras/1159-eliana-alves-cruz");
+            }
+        });
+
         findViewById(R.id.btnHome).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -74,5 +82,11 @@ public class Sinopse extends AppCompatActivity {
                 startActivity(telaMain);
             }
         });
+    }
+
+    private void urlListener (String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
     }
 }
