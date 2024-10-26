@@ -21,6 +21,7 @@ public class LinhaTempo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linha_tempo);
 
+        TextView intro = findViewById(R.id.intro);
         TextView textolinha = findViewById(R.id.textolinhatempo);
         ImageView imagemLinha = findViewById(R.id.imagemlinha);
         Button sair = findViewById(R.id.sair);
@@ -48,6 +49,7 @@ public class LinhaTempo extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                intro.setText("");
                 textolinha.setText(R.string.testelinha1);
                 imagemLinha.setImageResource(R.drawable.linhatempo1);
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(textolinha,"translationY",-25,0);
@@ -61,6 +63,7 @@ public class LinhaTempo extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                intro.setText("");
                 textolinha.setText(R.string.testelinha2);
                 imagemLinha.setImageResource(R.drawable.linhatempo2);
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(textolinha,"translationY",-25,0);
@@ -74,6 +77,7 @@ public class LinhaTempo extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                intro.setText("");
                 textolinha.setText(R.string.testelinha3);
                 imagemLinha.setImageResource(R.drawable.linhatempo3);
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(textolinha,"translationY",-25,0);
@@ -87,6 +91,7 @@ public class LinhaTempo extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                intro.setText("");
                 textolinha.setText(R.string.testelinha4);
                 imagemLinha.setImageResource(R.drawable.linhatempo4);
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(textolinha,"translationY",-25,0);
@@ -100,6 +105,7 @@ public class LinhaTempo extends AppCompatActivity {
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                intro.setText("");
                 textolinha.setText(R.string.testelinha5);
                 imagemLinha.setImageResource(R.drawable.linhatempo5);
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(textolinha,"translationY",-25,0);
@@ -113,6 +119,7 @@ public class LinhaTempo extends AppCompatActivity {
         btn6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                intro.setText("");
                 textolinha.setText(R.string.testelinha6);
                 imagemLinha.setImageResource(R.drawable.linhatempo6);
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(textolinha,"translationY",-25,0);
@@ -126,6 +133,7 @@ public class LinhaTempo extends AppCompatActivity {
         btn7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                intro.setText("");
                 textolinha.setText(R.string.testelinha7);
                 imagemLinha.setImageResource(R.drawable.linhatempo7);
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(textolinha,"translationY",-25,0);
@@ -139,6 +147,7 @@ public class LinhaTempo extends AppCompatActivity {
         btn8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                intro.setText("");
                 textolinha.setText(R.string.testelinha7);
                 imagemLinha.setImageResource(R.drawable.linhatempo8);
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(textolinha,"translationY",-25,0);
@@ -153,6 +162,7 @@ public class LinhaTempo extends AppCompatActivity {
         btn9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                intro.setText("");
                 textolinha.setText(R.string.testelinha9);
                 imagemLinha.setImageResource(R.drawable.linhatempo9);
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(textolinha,"translationY",-25,0);
@@ -167,6 +177,7 @@ public class LinhaTempo extends AppCompatActivity {
         btn10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                intro.setText("");
                 textolinha.setText(R.string.testelinha10);
                 imagemLinha.setImageResource(R.drawable.linhatempo10);
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(textolinha,"translationY",-25,0);
@@ -181,6 +192,7 @@ public class LinhaTempo extends AppCompatActivity {
         btn11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                intro.setText("");
                 textolinha.setText(R.string.testelinha11);
                 imagemLinha.setImageResource(R.drawable.linhatempo11);
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(textolinha,"translationY",-25,0);
@@ -195,6 +207,7 @@ public class LinhaTempo extends AppCompatActivity {
         btn12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                intro.setText("");
                 textolinha.setText(R.string.testelinha12);
                 imagemLinha.setImageResource(R.drawable.linhatempo12);
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(textolinha,"translationY",-25,0);
@@ -209,6 +222,7 @@ public class LinhaTempo extends AppCompatActivity {
         btn13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                intro.setText("");
                 textolinha.setText(R.string.testelinha13);
                 imagemLinha.setImageResource(R.drawable.linhatempo13);
                 ObjectAnimator animation1 = ObjectAnimator.ofFloat(textolinha,"translationY",-25,0);
