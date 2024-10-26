@@ -9,39 +9,51 @@
     tools:context=".LinhaTempo">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="730dp"
+        android:layout_width="419dp"
+        android:layout_height="850dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-3dp">
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="581dp"
+            android:layout_height="700dp"
             app:cardBackgroundColor="#FF8F3E">
 
             <ImageView
                 android:id="@+id/imagemlinha"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="20dp" />
+                android:layout_height="match_parent" />
 
             <TextView
                 android:id="@+id/textolinhatempo"
-                android:layout_width="410dp"
-                android:layout_height="71dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:background="#FFA944"
                 android:fontFamily="sans-serif-black"
                 android:text="\nLINHA DO TEMPO"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="20sp"
+                android:textSize="15sp"
                 android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:text="Explore o enredo clicando nos botões abaixo."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:typeface="sans"
+                android:fontFamily="sans-serif-black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="300dp"/>
+
         </androidx.cardview.widget.CardView>
 
         <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="200dp"
             android:background="#FF5722">
 
             <LinearLayout
@@ -57,7 +69,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
-                    android:text="SAIR"
+                    android:text="VOLTAR"
                     android:textColor="#FFFFFF"
                     app:strokeColor="#636363"
                     app:strokeWidth="0px" />
@@ -70,6 +82,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
+                    android:text="1"
                     android:textColor="@android:color/black"
                     app:strokeColor="#FF8F3E"
                     app:strokeWidth="25px" />
@@ -82,6 +95,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
+                    android:text="2"
                     android:textColor="@android:color/black"
                     app:strokeColor="#FF8F3E"
                     app:strokeWidth="25px" />
@@ -94,6 +108,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
+                    android:text="3"
                     android:textColor="@android:color/black"
                     app:strokeColor="#FF8F3E"
                     app:strokeWidth="25px" />
@@ -106,6 +121,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
+                    android:text="4"
                     android:textColor="@android:color/black"
                     app:strokeColor="#FF8F3E"
                     app:strokeWidth="25px" />
@@ -118,6 +134,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
+                    android:text="5"
                     android:textColor="@android:color/black"
                     app:strokeColor="#FF8F3E"
                     app:strokeWidth="25px" />
@@ -130,6 +147,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
+                    android:text="6"
                     android:textColor="@android:color/black"
                     app:strokeColor="#FF8F3E"
                     app:strokeWidth="25px" />
@@ -142,6 +160,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
+                    android:text="7"
                     android:textColor="@android:color/black"
                     app:strokeColor="#FF8F3E"
                     app:strokeWidth="25px" />
@@ -154,6 +173,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
+                    android:text="8"
                     android:textColor="@android:color/black"
                     app:strokeColor="#FF8F3E"
                     app:strokeWidth="25px" />
@@ -166,6 +186,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
+                    android:text="9"
                     android:textColor="@android:color/black"
                     app:strokeColor="#FF8F3E"
                     app:strokeWidth="25px" />
@@ -178,6 +199,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
+                    android:text="10"
                     android:textColor="@android:color/black"
                     app:strokeColor="#FF8F3E"
                     app:strokeWidth="25px" />
@@ -190,6 +212,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
+                    android:text="11"
                     android:textColor="@android:color/black"
                     app:strokeColor="#FF8F3E"
                     app:strokeWidth="25px" />
@@ -202,6 +225,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
+                    android:text="12"
                     android:textColor="@android:color/black"
                     app:strokeColor="#FF8F3E"
                     app:strokeWidth="25px" />
@@ -214,6 +238,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFA944"
+                    android:text="13"
                     android:textColor="@android:color/black"
                     app:strokeColor="#FF8F3E"
                     app:strokeWidth="25px" />
